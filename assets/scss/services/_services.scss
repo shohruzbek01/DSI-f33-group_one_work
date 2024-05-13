@@ -1,0 +1,165 @@
+.header{
+    padding: 22px 0;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+    &-row{
+        display: flex;
+    } 
+    &:hover{
+        border: 1px solid blue;
+    }
+
+     &-links{
+        margin-left: 250px;
+        margin-top: 24px;
+     }
+     &-link{
+        color: #1F2E35CC;
+        text-decoration: none;
+        padding: 24px;
+    }
+    &-link:hover{
+        color: #1f2b3099;
+        transition:  all 0.2s ease-in-out;
+    }
+    &-link:active{
+        color: black;
+    }
+    &-menus{
+       display: flex;
+       align-items:center;
+       justify-content: end;
+    }
+    &-mobile-menu{
+        display: none;
+    }
+    &-home{
+      padding-left: 44px;
+    }
+   &-home:hover path {
+      fill:  hsla(195, 10%, 16%, 0.342);
+      transition:  all 0.2s ease-in-out;
+   }
+} 
+//header_end
+.title{
+   width: 100%;
+   height: 300px;
+   background-color: #ffffffbf;
+   &-row{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+   }
+   &-one{
+      font-weight: 500;
+      font-size: 30px;
+      &-red{
+        text-align: center;
+        font-weight: 700;
+        font-size: 35px;
+        color: red;
+      }
+      &-final{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 35px;
+        color: red;
+      }
+   }
+
+}
+//middle_start
+  .middlee{
+     width: 100%;
+     &-row{
+        display: flex;
+     }
+     &-title{
+        font-weight: 600;
+        font-size: 24px;
+     }
+     &-subtitle{
+        max-width: 400px;
+        &-red{
+            color: red;
+        }
+     }
+    &-right-img{
+        position: absolute;
+        top: 370px;
+        right: 0;
+    }
+
+  }
+//middle_end
+//footer_start
+.footer{
+    width: 100%;
+    height: px;
+    &-logo{
+      margin:16px 0;
+    }
+    &-title{
+        margin: 0 0 16px 0;
+        color: black;
+        font: 600;
+        font-size:20px;
+    }
+    &-subtitle{
+        color: #263238;
+    }
+    &-row{
+        display: flex;
+        justify-content: space-between;
+    }
+&-contact-row{
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   margin-left: 100px;
+   margin-top: 30px;
+  
+  
+}
+&-contact-phone{
+    color: #263238;
+   }
+&-contact-fax{
+    color: #263238;
+}
+&-contact-email{
+    color: #263238;
+}
+&-brand-row{
+    max-width: 387px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+&-end{
+    width: 100%;
+    height: 64px;
+    background-color: red;
+    &:hover{
+        border: 1px solid blue;
+    }
+
+}
+&-end-text{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    padding-top:30px ;
+}
+
+
+}
+
+//footer_end

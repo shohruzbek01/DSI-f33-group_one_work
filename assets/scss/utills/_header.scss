@@ -1,0 +1,45 @@
+.header{
+    padding: 22px 0;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+    &-row{
+        display: flex;
+    } 
+    &:hover{
+        border: 1px solid blue;
+    }
+
+     &-links{
+        margin-left: 250px;
+        margin-top: 24px;
+     }
+     &-link{
+        color: #1F2E35CC;
+        text-decoration: none;
+        padding: 24px;
+    }
+    &-link:hover{
+        color: #1f2b3099;
+        transition:  all 0.2s ease-in-out;
+    }
+    &-link:active{
+        color: black;
+    }
+    &-menus{
+       display: flex;
+       align-items:center;
+       justify-content: end;
+    }
+    &-mobile-menu{
+        display: none;
+    }
+    &-home{
+      padding-left: 44px;
+    }
+   &-home:hover path {
+      fill:  hsla(195, 10%, 16%, 0.342);
+      transition:  all 0.2s ease-in-out;
+   }
+} 
+//header_end
