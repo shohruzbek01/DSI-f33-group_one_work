@@ -1,0 +1,47 @@
+.banner{
+    width: 100%;
+    height: 100%;
+    &-row{
+        margin-top: 0;
+    }
+    &-img{
+       background-color:red;
+        width: 100%;
+        height: 500px;
+        border-radius: 0 0 80% 80%;
+    }
+    &-title{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &-title-text{
+        max-width: 500px;
+        font-weight: 600;
+        font-size: 25px;
+        color: #fff;
+        margin-top: 100px;
+        &-two{
+            font-weight:900;
+            font-size: 30px;
+        }
+    }
+    &-button{
+        &-wrap{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    &-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        color: red;
+    }
+    &-laptop{
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+    }
+}    
