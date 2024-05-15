@@ -1,0 +1,38 @@
+//header-start
+.header{
+    padding: 22px 0;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+    &-row{
+        display:flex;
+        gap:0;
+        height: 85px;
+    }
+    &-links{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+ 
+    }
+    &-link{
+       color: black;
+       text-decoration: none;
+    }
+    &-icons{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+    &-link:active{
+        color: rgba(0, 0, 0, 0.853);
+    }
+    &-link:hover{
+        color: hwb(0 32% 67% / 0.521);
+    }
+    &-home:hover path{
+        fill:hwb(0 21% 78% / 0.611);
+    }
+}
+
+//header_end
